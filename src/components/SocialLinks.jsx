@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     GitHub <FaGithub size={25} />
                 </>
             ),
-            href: "https://www.github.com/dipayansarkar47",
+            href: "https://github.com/Shahzaman22",
             style: "rounded-tr-md"
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={25} />
                 </>
             ),
-            href: "https://www.linkedin.com/in/dipayan-sarkar-ab465b1b5/",
+            href: "https://www.linkedin.com/in/shahzaman-aftab/",
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={25} />
                 </>
             ),
-            href: "mailto:dipayansarkar265482@gmail.com",
+            href: "mailto:shahzaman.aftab@gmail.com",
         },
         {
             id: 4,
