@@ -42,13 +42,13 @@ const Home = () => {
                             </span>
                             Hire Me
                         </a>
-                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/dipayan-sarkar-ab465b1b5/" smooth duration={550} data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/shahzaman-aftab/" smooth duration={550} data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsLinkedin size={25}></BsLinkedin>
                             </span>
                         </a>
-                        <a target='_blank' rel="noreferrer" href="https://www.github.com/dipayansarkar47" smooth duration={600} data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3500" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Shahzaman22" smooth duration={600} data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3500" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsGithub size={25}></BsGithub>
