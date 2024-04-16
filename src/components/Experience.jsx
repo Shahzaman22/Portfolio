@@ -3,11 +3,11 @@ import html from '../assets/experience/html.png'
 import css from '../assets/experience/css.png'
 import javascript from '../assets/experience/javascript.png'
 import node from '../assets/experience/node.png'
-import flutter from '../assets/experience/flutter.png'
-import firebase from '../assets/experience/firebase.png'
+import aws from '../assets/experience/aws.png'
+import docker from '../assets/experience/docker.png'
 import react from '../assets/experience/react.png'
 import tailwind from '../assets/experience/tailwind.png'
-import python from '../assets/experience/python.png'
+import mysql from '../assets/experience/mysql.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -55,20 +55,20 @@ const Experience = () => {
         },
         {
             id: 7,
-            scr: flutter,
-            title: 'Flutter',
+            scr: aws,
+            title: 'AWS',
             style: 'shadow-cyan-800'
         },
         {
             id: 8,
-            scr: firebase,
-            title: 'Firebase',
+            scr: docker,
+            title: 'Docker',
             style: 'shadow-yellow-800'
         },
         {
             id: 9,
-            scr: python,
-            title: 'Python',
+            scr: mysql,
+            title: 'MYSQL',
             style: 'shadow-blue-400'
         }
     ]

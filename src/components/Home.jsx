@@ -53,12 +53,12 @@ const Home = () => {
                             <BsGithub size={25}></BsGithub>
                             </span>
                         </a>
-                        <a target='_blank' rel="noreferrer" href="https://www.instagram.com/codewithbiki" smooth duration={650} data-aos="fade-up" data-aos-delay="2500" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        {/* <a target='_blank' rel="noreferrer" href="" smooth duration={650} data-aos="fade-up" data-aos-delay="2500" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsInstagram size={25}></BsInstagram>
                             </span>
-                        </a>
+                        </a> */}
                     </div>
 
                 </div>

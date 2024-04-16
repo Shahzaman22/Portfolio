@@ -19,8 +19,13 @@ const About = () => {
                 </div>
 
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
-                    I embarked my journey as a B.Tech Computer Science & Engineering student at Ramkrishna Mahato Government Engineering College in 2020. Along the way, I fearlessly explored various fields, including Graphic Designing, Content Creation, Freelancing, and Entrepreneurship. I delved into the world of cutting-edge technologies, such as Python, Cloud computing, React, Flutter, and Firebase. I also took my passion for technology and leadership to new heights by co-establishing Google Developer Student Clubs and the E-Cell in my college, alongside my equally enthusiastic classmates. At present, I serve GDSC RKMGEC as the Co-Lead and holds the significant responsibility of being the In-Charge of E-Cell RKMGEC.
-                </p>
+                I'm a passionate software engineer with a strong background in full-stack development, specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack. With a keen eye for detail and a commitment to delivering high-quality solutions.
+
+                My journey in software engineering has been fueled by a relentless curiosity and a drive for continuous learning. I find immense satisfaction in tackling complex challenges and transforming them into elegant, efficient solutions.
+
+                In addition to my expertise in full-stack development, I have a keen interest in cloud computing, particularly in leveraging AWS services and containerization with Docker. I'm fascinated by the scalability, flexibility, and cost-effectiveness that cloud technologies offer, and I'm always exploring innovative ways to leverage these tools to streamline development workflows and enhance application performance.
+
+                I'm committed to delivering results that exceed expectations and drive tangible value for my clients. Whether you're looking to build a dynamic web application, migrate your infrastructure to the cloud, or optimize your existing systems for peak performance, I'm here to help bring your vision to life.</p>
                 <br />
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
                     In a constant pursuit of sharing knowledge and fostering growth, I've organized numerous technical workshops, imparting valuable insights on technologies like Python, Android, and Google Cloud to aspiring learners. With a commitment to personal development and a drive for making a positive impact within the tech community.
@@ -33,7 +38,7 @@ const About = () => {
 
 
                     <AiOutlineCloudDownload />
-                    <a href="/" download>Download CV</a>
+                    <a href="/home/shahzaman/Downloads/resume/Shahzaman.pdf" download>Download CV</a>
                 </div>
             </div>
         </div>
