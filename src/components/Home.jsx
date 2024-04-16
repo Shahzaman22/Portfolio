@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 import { Link } from 'react-scroll'
 import '../App.css'
 import { HiOutlineMail } from 'react-icons/hi'
-import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { BsGithub , BsLinkedin } from 'react-icons/bs'
 
 const Home = () => {
     useEffect(()=> {
