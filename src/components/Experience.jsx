@@ -8,6 +8,7 @@ import docker from '../assets/experience/docker.png'
 import react from '../assets/experience/react.png'
 import tailwind from '../assets/experience/tailwind.png'
 import mysql from '../assets/experience/mysql.png'
+import mongodb from '../assets/experience/mongodb.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -61,8 +62,8 @@ const Experience = () => {
         },
         {
             id: 8,
-            scr: docker,
-            title: 'Docker',
+            scr: mongodb,
+            title: 'MongoDb',
             style: 'shadow-yellow-800'
         },
         {
@@ -74,7 +75,7 @@ const Experience = () => {
     ]
 
     return (
-        <div name="skills" className='bg-gradient-to-b from-gray-800 to-black text-white
+        <div name="skills" className='bg-gradient-to-b from-gray-800 to-black text-white pt-16
      w-full h-full'>
             <div className='max-w-screen-lg max-h-screen-lg p-4 mx-auto flex flex-col justify-center w-full '>
                 <div className='pb-8'>
