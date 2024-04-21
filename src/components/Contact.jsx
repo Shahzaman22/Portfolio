@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
 
 const Contact = () => {
   useEffect(() => {
@@ -20,7 +21,10 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("Thanks For Contacting, We'll respond you within a day!!")
+          form.current.name.value = "";
+          form.current.email.value = "";
+          form.current.message.value = "";
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -43,7 +47,8 @@ const Contact = () => {
         <div className="flex justify-center items-center">
           <form
             className="flex flex-col w-full md:w-1/2"
-            ref={form} onSubmit={sendEmail}
+            ref={form}
+            onSubmit={sendEmail}
           >
             <input
               data-aos="slide-up"
@@ -73,14 +78,15 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 m-2 rounded-md text-white focus:outline-none"
             ></textarea>
             <button
-            //   data-aos="zoom-in"
-            //   data-aos-duration="1000"
+              //   data-aos="zoom-in"
+              //   data-aos-duration="1000"
               type="submit"
               className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
             >
               Let's Talk
             </button>
           </form>
+
         </div>
       </div>
     </div>
